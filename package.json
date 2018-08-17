@@ -1,7 +1,7 @@
 {
-  "name": "node-typescript-starter",
+  "name": "webpack-typescript-starter",
   "version": "0.0.1",
-  "main": "client/index.ts",
+  "main": "src/index.ts",
   "author": "Feynman Liang <feynman.liang@gmail.com>",
   "license": "MIT",
   "engines": {

@@ -28,7 +28,7 @@ module.exports = {
     plugins: [
         new ForkTsCheckerWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'node-typescript-starter'
+            title: 'webpack-typescript-starter'
         }),
     ],
     mode: 'development',
