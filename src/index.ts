@@ -1,1 +1,1 @@
-console.log("HELLO WORLD")
+const appDiv = document.getElementById('app');

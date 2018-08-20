@@ -1,8 +1,9 @@
-webpack-typescript-starter
-==========================
+# webpack-typescript-starter
 
 This is a lightweight template for starting a Typescript
-front-end project.
+and Sass front-end project. 
+
+## Instructions
 
 Setting up:
 ```

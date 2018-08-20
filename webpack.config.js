@@ -20,6 +20,22 @@ module.exports = {
                     experimentalWatchApi: true,
                 }
             },
+            {
+                test: /\.(s*)css$/,
+                use: [
+                    {
+                        loader: 'style-loader',
+                    },
+                    {
+                        loader: 'css-loader',
+                        options: { importLoaders: 1, sourceMap: true, }
+                    },
+                    {
+                        loader: 'postcss-loader',
+                        options: { sourceMap: true, }
+                    },
+                ],
+            }
         ]
     },
     resolve: {
